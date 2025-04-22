@@ -2,8 +2,8 @@ import Image from 'next/image';
 import React from 'react'
 
 type props = {
-    image: 'string';
-    title: 'string';
+    image: string;
+    title: string;
 }
 
 function WhyChooseCard({ image, title }: props) {
